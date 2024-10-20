@@ -1,11 +1,25 @@
 body {
   background-color: #fff6e5;
   color: #1b1100;
-  margin-left: 30%;
-  margin-right: 30%;
   font-size: 12pt;
   font-family: Mu-Regular;
   line-height: 20pt;
+  margin-left: 10pt;
+  margin-right: 10pt;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
 }
 
 .underoverskrift {
