@@ -1,15 +1,18 @@
 body {
   background-color: #fff6e5;
   color: #1b1100;
-  font-size: 12pt;
+  font-size: 36pt;
   font-family: Mu-Regular;
-  line-height: 20pt;
+  line-height: 60pt;
   margin-left: 10pt;
   margin-right: 10pt;
 }
 
+
 @media screen and (min-width: 1200px) {
   body {
+    font-size: 12pt;
+    line-height: 20pt;
     margin-left: 30%;
     margin-right: 30%;
   }
