@@ -1,0 +1,107 @@
+body {
+  background-color: #fff6e5;
+  color: #1b1100;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 12pt;
+  font-family: Mu-Regular;
+  line-height: 20pt;
+}
+
+.underoverskrift {
+  font-feature-settings: "smcp", "c2sc";
+  margin-bottom: 0;
+  letter-spacing: 1pt;
+}
+
+.frsteavsnitt {
+  margin-top: 0;
+}
+
+.kursiv {
+  font-family: Mu-RegularItalic;
+}
+
+.fet {
+  font-family: Mu-Bold;
+}
+
+.kapiteler {
+  font-feature-settings: "smcp", "c2sc";
+}
+
+svg {
+  font-family: Akzidenz;
+}
+
+.illustrasjon {
+  margin-bottom: 0;
+}
+
+.topplass {
+  margin-top: 20pt;
+}
+
+.matematikk {
+  font-family: Mu-Regular;
+}
+
+.bildetekst {
+  font-size: 8pt;
+  margin-top: 0;
+}
+
+.bildetekst.bunnplass {
+    margin-bottom: 20pt;
+}
+
+#sisteavsnitt {
+  font-feature-settings: "smcp", "c2sc";
+  margin-bottom: 50pt;
+}
+
+.linje {
+  margin-bottom: 25pt;
+}
+
+.bunnlinje {
+  margin-bottom: 250pt;
+}
+
+#overskrift {
+  font-family: Lehmann;
+  font-size: 26pt;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  margin-bottom: 10pt;
+}
+
+@font-face {
+  font-family: Mu-Regular;
+  src: url(Mu-Regular.otf);
+}
+
+@font-face {
+  font-family: Mu-RegularItalic;
+  src: url(Mu-RegularItalic.otf);
+}
+
+@font-face {
+  font-family: Mu-Bold;
+  src: url(Mu-Bold.otf);
+}
+
+@font-face {
+  font-family: Mu-BoldItalic;
+  src: url(Mu-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: Akzidenz;
+  src: url(AkzidenzGroteskPro-Ext.otf);
+}
+
+@font-face {
+  font-family: Lehmann;
+  src: url(LehmannEgyptian-Medium.otf)
+}
