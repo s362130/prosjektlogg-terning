@@ -8,6 +8,10 @@ body {
   line-height: 5.6vw;
 }
 
+p {
+  max-height: 5000em;
+}
+
 .underoverskrift {
   font-feature-settings: "smcp", "c2sc";
   margin-bottom: 0;
