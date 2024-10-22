@@ -3,15 +3,15 @@ body {
   color: #1b1100;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 1.6vh;
+  font-size: 3.2vw;
   font-family: Mu-Regular;
-  line-height: 2.8vh;
+  line-height: 5.6vw;
 }
 
 .underoverskrift {
   font-feature-settings: "smcp", "c2sc";
   margin-bottom: 0;
-  letter-spacing: 0.1vh;
+  letter-spacing: 0.2vw;
 }
 .frsteavsnitt {
   margin-top: 0;
@@ -32,36 +32,36 @@ svg {
   margin-bottom: 0;
 }
 .topplass {
-  margin-top: 1vh;
+  margin-top: 2vw;
 }
 .matematikk {
   font-family: Mu-Regular;
 }
 .bildetekst {
-  font-size: 1.2vh;
+  font-size: 2.4vw;
   margin-top: 0;
 }
 .bildetekst.bunnplass {
-    margin-bottom: 3vh;
+    margin-bottom: 6vw;
 }
 #sisteavsnitt {
   font-feature-settings: "smcp", "c2sc";
-  margin-bottom: 7.5vh;
+  margin-bottom: 15vw;
 }
 .linje {
-  margin-bottom: 3.75vh;
+  margin-bottom: 7.5vw;
 }
 .bunnlinje {
-  margin-bottom: 37.5vh;
+  margin-bottom: 75vw;
 }
 #overskrift {
   font-family: Lehmann;
-  font-size: 3.9vh;
+  font-size: 7.8vw;
   text-transform: uppercase;
-  letter-spacing: 0.3vh;
-  margin-bottom: 0.75vh;
-  line-height: 3.9vh;
-  margin-top: 3vh;
+  letter-spacing: 0.6vw;
+  margin-bottom: 1.25vw;
+  line-height: 7.8vw;
+  margin-top: 6vw;
 }
 @font-face {
   font-family: Mu-Regular;
@@ -102,5 +102,28 @@ svg {
     font-size: 4.25vh;
     letter-spacing: 0.375vh;
     line-height: 4vh;
+    margin-bottom: 0.75vh;
+    margin-top: 3vh;
+  }
+  .underoverskrift {
+    letter-spacing: 0.1vh;
+  }
+  .bildetekst.bunnplass {
+    margin-bottom: 3vh;
+  }
+  #sisteavsnitt {
+    margin-bottom: 7.5vh;
+  }
+  .linje {
+    margin-bottom: 3.75vh;
+  }
+  .bunnlinje {
+    margin-bottom: 37.5vh;
+  }
+  .topplass {
+    margin-top: 1vh;
+  }
+  .underoverskrift {
+    letter-spacing: 0.1vh;
   }
 }
