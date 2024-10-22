@@ -1,16 +1,17 @@
 body {
   background-color: #fff6e5;
   color: #1b1100;
-  margin-left: 30%;
-  margin-right: 30%;
-  font-size: 12pt;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.8vh;
   font-family: Mu-Regular;
-  line-height: 20pt;
+  line-height: 3vh;
 }
+
 .underoverskrift {
   font-feature-settings: "smcp", "c2sc";
   margin-bottom: 0;
-  letter-spacing: 1pt;
+  letter-spacing: 0.1vh;
 }
 .frsteavsnitt {
   margin-top: 0;
@@ -31,34 +32,36 @@ svg {
   margin-bottom: 0;
 }
 .topplass {
-  margin-top: 20pt;
+  margin-top: 1vh;
 }
 .matematikk {
   font-family: Mu-Regular;
 }
 .bildetekst {
-  font-size: 8pt;
+  font-size: 1.2vh;
   margin-top: 0;
 }
 .bildetekst.bunnplass {
-    margin-bottom: 20pt;
+    margin-bottom: 3vh;
 }
 #sisteavsnitt {
   font-feature-settings: "smcp", "c2sc";
-  margin-bottom: 50pt;
+  margin-bottom: 7.5vh;
 }
 .linje {
-  margin-bottom: 25pt;
+  margin-bottom: 3.75vh;
 }
 .bunnlinje {
-  margin-bottom: 250pt;
+  margin-bottom: 37.5vh;
 }
 #overskrift {
   font-family: Lehmann;
-  font-size: 26pt;
+  font-size: 3.9vh;
   text-transform: uppercase;
-  letter-spacing: 2pt;
-  margin-bottom: 10pt;
+  letter-spacing: 0.3vh;
+  margin-bottom: 0.75vh;
+  line-height: 3.9vh;
+  margin-top: 3vh;
 }
 @font-face {
   font-family: Mu-Regular;
@@ -83,4 +86,21 @@ svg {
 @font-face {
   font-family: Lehmann;
   src: url(LehmannEgyptian-Medium.otf)
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 2.25vh;
+    line-height: 3.75vh;
+  }
+  .bildetekst {
+    font-size: 1.5vh;
+  }
+  #overskrift {
+    font-size: 4.25vh;
+    letter-spacing: 0.375vh;
+    line-height: 4vh;
+  }
 }
